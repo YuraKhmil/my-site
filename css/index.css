@@ -1,5 +1,7 @@
+@import url(card.css);
 * {
-font-family: 'Rubik', sans-serif;;
+font-family: 'Rubik', sans-serif;
+box-sizing: border-box;
 }
 .header {
     display: flex;
@@ -28,7 +30,7 @@ background-color: rgb(208, 223, 86);
 .main-background {
     background-image: url(../image/cover.png);
     background-size: cover;
-    height: 650px;
+    max-height: 650px;
     margin: 0 20px;
     padding: 250px 0;
 }
@@ -53,4 +55,15 @@ h1 {
     width: 230px;
     height: 60px;
     background-color: rgb(208, 223, 86);
+}
+.image {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    margin: 50px 20px 50px 350px;
+    justify-content: center;
+}
+.carousel-control-prev, .carousel-control-next {
+    background-color: black;
+    margin: 50px 20px;
 }

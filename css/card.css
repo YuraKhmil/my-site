@@ -1,0 +1,44 @@
+@import url(index.css);
+
+.my-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px 90px;
+}
+.before {
+  font-size: 12px;
+  color: #d0df56;
+}
+.card-title {
+  font-size: 24px;
+  color: #062a4d;
+  font-weight: 700;
+  font: bold;
+}
+.card-text {
+  font-size: 17px;
+  color: #54738e;
+  font: bold;
+  font-weight: 500;
+}
+.btn {
+  width: 120px;
+  height: 50px;
+  font: bold;
+  background-color: rgb(208, 223, 86);
+  border: 1px solid white;
+}
+.about-botton {
+  font-size: 14px;
+  font: bold;
+  color: #062a4d;
+}
+
+/*@media (min-width: 500px) {
+  .my-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+  }
+}*/
