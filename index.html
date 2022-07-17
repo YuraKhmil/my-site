@@ -105,13 +105,74 @@
                <p class="before">TIPS AND HELP</p>
                <h3 class="card-title">How to Choose Interior Doors for Your Home</h3>
                <p class="card-text">Choosing interior doors is an important step. They can optimally fit into the interior, or vice versa, spoil everything. Therefore, it is better to make a choice even at the design...</p>
-               <a href="#" class="btn btn-primary"><span class="about-botton">Read more</span></a>
+               <a href="#" class="btn btn-primary" data-bs-target="#info-card-modal" data-bs-toggle="modal"><span class="about-botton">Read more</span></a>
+            </div>
+          </div>
+        </div>
+        <form>
+          <p class="form-p">- CONTACT US -</p>
+          <h2 class="form-h2">Fill out the Form and We'll Call You</h2>
+          <p class="form-p">Please specify your question or inquiry.</p>
+          <div class="mb-3">
+            <label for="my-name" class="form-label"></label>
+            <input type="name" class="form-control" id="my-name" placeholder="Your Name*">
+          </div>
+           <div class="mb-3">
+            <label for="my-number" class="form-label"></label>
+            <input type="name" class="form-control" id="my-number" placeholder="Phone number*">
+          </div>
+          <div class="mb-3"></div>  
+            <label for="my-email" class="form-label"></label>
+            <input type="email" class="form-control" id="my-email" aria-describedby="emailHelp" placeholder="Email*">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+              </div>
+          </div>
+           <div class="mb-3">
+            <textarea class="my-text" name="text" id="my-text" cols="45" rows="5" placeholder="Briefli describe your question"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-button">REQUEST A QUOTE</button>
+        </form>
+        <div class="accordion" id="my-accordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Door Repair
+            </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#my-accordion">
+              <div class="accordion-body">
+                Your doors play an essential role in the safety, security, and energy efficiency of your home. If age is starting to take its toll on your doors or one was recently damaged in an unexpected accident, our door repair team will deliver fast, dependable work for any problems you’re having.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Door Replacement
+            </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#my-accordion">
+              <div class="accordion-body">
+                Whether your existing doors are damaged, or you’re merely looking to change the aesthetic of your home or increase security, replacement doors could be precisely what you need. At EasyDoors, we replace all types of doors, including front entry doors, patio doors, and interior doors.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Doors Installation
+            </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#my-accordion">
+              <div class="accordion-body">
+              The entry door you select for your home or business dictates what first impression you’ll have on your guests and customers. We can help you sift through your choices to find the best color, material, and style for your front door.
+              </div>
             </div>
           </div>
         </div>
     </main>
     <footer></footer>
-    <div class="modal fade" id="info-card" tabindex="-1" aria-labelledby="info-cardLabel" aria-hidden="true">
+    <div class="modal fade" id="info-card-modal" tabindex="-1" aria-labelledby="info-cardLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -119,7 +180,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body"> 
-            <img src="image/img1.png" class="d-block w-50 image" alt="Image1">
+             <img src="image/img6.png" class="card-img-top" alt="Image6">
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

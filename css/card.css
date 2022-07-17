@@ -42,3 +42,52 @@
     gap: 20px;
   }
 }*/
+form {
+  display: flex;
+  flex-direction: column;
+  width: 425px;
+  height: 680px;
+  margin: 50px 450px;
+  background-color: grey;
+  padding: 20px;
+  color: #50aab2;
+}
+.form-p {
+  font-size: 16px;
+  text-align: center;
+}
+.form-h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.my-text {
+  margin: 10px 0;
+}
+.form-button {
+  font-size: 14px;
+  background-color: #d0df56;
+  width: 100%;
+  color: black;
+}
+.accordion {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+
+  background-color: #e8eeef;
+  font: bold;
+}
+.accordion-item {
+  width: 100%;
+}
+.accordion-button {
+  font-size: 28px;
+  font: bolder;
+  color: rgb(6, 42, 77);
+  font-weight: 500;
+}
+.accordion-body {
+  font-size: 17px;
+  color: #50aab2;
+  background-color: #e8eeef;
+}
